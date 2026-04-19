@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import '../services/firestore_service.dart';
 
-class ProgressScreen extends StatelessWidget {
+class ProgressScreen extends StatelessWidget{
   const ProgressScreen({super.key});
 
   String formatDate(Timestamp? timestamp) {
